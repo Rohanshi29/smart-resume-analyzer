@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.auth-page {
+  min-height: calc(100vh - 64px);
+  background: #f1f3ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border: 1px solid #dcdfd8;
+  border-radius: 12px;
+  padding: 40px 36px;
+  box-shadow: 0 20px 45px rgba(34, 29, 26, 0.08);
+}
+
+.auth-eyebrow {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #b98430;
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.auth-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #221d1a;
+  text-align: center;
+  margin: 0 0 28px;
+}
+
+.auth-message {
+  background: rgba(217, 164, 65, 0.12);
+  border: 1px solid rgba(217, 164, 65, 0.35);
+  color: #6e5320;
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.auth-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6e6a62;
+}
+
+.auth-input {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  padding: 12px 14px;
+  border: 1px solid #dcdfd8;
+  border-radius: 8px;
+  background: #fbfaf7;
+  color: #221d1a;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.auth-input::placeholder {
+  color: #a19c92;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: #d9a441;
+  box-shadow: 0 0 0 3px rgba(217, 164, 65, 0.18);
+}
+
+.auth-submit {
+  margin-top: 6px;
+  padding: 13px 20px;
+  border-radius: 8px;
+  border: 1px solid #d9a441;
+  background: #d9a441;
+  color: #241c0a;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.auth-submit:hover {
+  background: #b98430;
+  transform: translateY(-1px);
+}
+
+.auth-submit:focus-visible {
+  outline: 2px solid #221d1a;
+  outline-offset: 2px;
+}
+
+.auth-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #6e6a62;
+  margin: 24px 0 0;
+}
+
+.auth-footer a {
+  color: #b98430;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
